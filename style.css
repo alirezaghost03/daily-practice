@@ -1,0 +1,68 @@
+
+
+body{
+    background-color: #111111;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    user-select:none;
+}
+h1{
+    color: gold;
+}
+h1 img{
+    margin: 0px 10px -15px 20px;
+}
+h2{
+    color: white;
+    margin-left: 30px;
+}
+h2 span{
+    font-size: 32px;
+    color: violet;
+}
+.counteiner{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    flex: 1 1;
+    flex-wrap: wrap;
+}
+.counteiner div{
+    
+    min-height:200px ;
+    padding: 5px;
+    flex: 1;
+}
+.counteiner img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    
+}
+.counteiner p{
+    color: white;
+    font-size: 20px;
+    
+}
+.counteiner span{
+    font-weight: 500;
+    text-decoration: underline 3px violet ;
+}
+
+footer{
+    clear: both;
+    
+}
+footer p{
+    margin-top: 200px;
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+footer span{
+    color: violet;
+}
